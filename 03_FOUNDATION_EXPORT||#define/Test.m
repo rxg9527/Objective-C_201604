@@ -12,6 +12,7 @@
  *  常量不是全局的，需在前面加static。否则可能会产生duplicate symbol的错误。
  */
 static NSString *const kTestConstantString = @".m_Yuen";
+NSString *const testConstantString = @".h_Yuen";
 
 
 @implementation Test
