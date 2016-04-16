@@ -11,6 +11,9 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *scrollViewContentSizeHeight;
+
 @end
 
 
@@ -20,6 +23,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.scrollViewContentSizeHeight.constant = 1000;
+    self.scrollView.backgroundColor = [UIColor redColor];
 }
 
 - (void)didReceiveMemoryWarning
