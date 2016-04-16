@@ -22,6 +22,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+    /**
+     *  不让那些空的cell显示
+     */
+    self.testTableView.tableFooterView = [UIView new];
 }
 
 - (void)didReceiveMemoryWarning
