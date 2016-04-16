@@ -25,6 +25,11 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.scrollViewContentSizeHeight.constant = 1000;
     self.scrollView.backgroundColor = [UIColor redColor];
+
+    /**
+     *  像safari一样滑动的时候隐藏navigationbar
+     */
+    self.navigationController.hidesBarsOnSwipe = YES;
 }
 
 - (void)didReceiveMemoryWarning
