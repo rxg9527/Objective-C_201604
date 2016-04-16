@@ -8,6 +8,11 @@
 
 #import "Test.h"
 
+/**
+ *  常量不是全局的，需在前面加static。否则可能会产生duplicate symbol的错误。
+ */
+static NSString *const kTestConstantString = @".m_Yuen";
+
 
 @implementation Test
 
