@@ -81,7 +81,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C7F73381CC283D000F97B4B /* 02_iOSTips */ = {
+		0C7F73381CC283D000F97B4B /* 02_spacecommander */ = {
 			isa = PBXGroup;
 			children = (
 				0C7F733C1CC283D000F97B4B /* AppDelegate.h */,
@@ -90,6 +90,7 @@
 				0C7F73401CC283D000F97B4B /* ViewController.m */,
 				0C7F73391CC283D000F97B4B /* Supporting Files */,
 			);
+			name = 02_spacecommander;
 			path = 02_iOSTips;
 			sourceTree = "<group>";
 		};
@@ -109,7 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				0CB443881CC13E1500F892FA /* 01_dispatch_group_t */,
-				0C7F73381CC283D000F97B4B /* 02_iOSTips */,
+				0C7F73381CC283D000F97B4B /* 02_spacecommander */,
 				0CB443871CC13E1400F892FA /* Products */,
 				1832EFDCC22A4D17473E85B5 /* Pods */,
 				3273F4B8F31FE695E26EBA20 /* Frameworks */,
