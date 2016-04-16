@@ -19,6 +19,12 @@
 		0C7F73911CC28EB000F97B4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F73901CC28EB000F97B4B /* main.m */; };
 		0C7F73971CC28EC000F97B4B /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F73961CC28EC000F97B4B /* Test.m */; };
 		0C7F739F1CC2937100F97B4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F739E1CC2937100F97B4B /* main.m */; };
+		0C7F73B61CC2957000F97B4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F73B51CC2957000F97B4B /* main.m */; };
+		0C7F73B91CC2957000F97B4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F73B81CC2957000F97B4B /* AppDelegate.m */; };
+		0C7F73BC1CC2957000F97B4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F73BB1CC2957000F97B4B /* ViewController.m */; };
+		0C7F73BF1CC2957000F97B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F73BD1CC2957000F97B4B /* Main.storyboard */; };
+		0C7F73C11CC2957000F97B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F73C01CC2957000F97B4B /* Assets.xcassets */; };
+		0C7F73C41CC2957000F97B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F73C21CC2957000F97B4B /* LaunchScreen.storyboard */; };
 		0CB4438B1CC13E1500F892FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB4438A1CC13E1500F892FA /* main.m */; };
 		0CB4438E1CC13E1500F892FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB4438D1CC13E1500F892FA /* AppDelegate.m */; };
 		0CB443911CC13E1500F892FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB443901CC13E1500F892FA /* ViewController.m */; };
@@ -70,6 +76,16 @@
 		0C7F73961CC28EC000F97B4B /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		0C7F739C1CC2937100F97B4B /* 04_static_inline */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 04_static_inline; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7F739E1CC2937100F97B4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C7F73B21CC2957000F97B4B /* 05_NotShowEmptyCellInTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 05_NotShowEmptyCellInTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7F73B51CC2957000F97B4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C7F73B71CC2957000F97B4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C7F73B81CC2957000F97B4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C7F73BA1CC2957000F97B4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C7F73BB1CC2957000F97B4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C7F73BE1CC2957000F97B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C7F73C01CC2957000F97B4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C7F73C31CC2957000F97B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C7F73C51CC2957000F97B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CB443861CC13E1400F892FA /* Objective-C_201604.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C_201604.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB4438A1CC13E1500F892FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CB4438C1CC13E1500F892FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +124,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0C7F73991CC2937100F97B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7F73AF1CC2957000F97B4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -168,6 +191,30 @@
 			path = 04_static_inline;
 			sourceTree = "<group>";
 		};
+		0C7F73B31CC2957000F97B4B /* 05_NotShowEmptyCellInTableView */ = {
+			isa = PBXGroup;
+			children = (
+				0C7F73B71CC2957000F97B4B /* AppDelegate.h */,
+				0C7F73B81CC2957000F97B4B /* AppDelegate.m */,
+				0C7F73BA1CC2957000F97B4B /* ViewController.h */,
+				0C7F73BB1CC2957000F97B4B /* ViewController.m */,
+				0C7F73B41CC2957000F97B4B /* Supporting Files */,
+			);
+			path = 05_NotShowEmptyCellInTableView;
+			sourceTree = "<group>";
+		};
+		0C7F73B41CC2957000F97B4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C7F73BD1CC2957000F97B4B /* Main.storyboard */,
+				0C7F73C01CC2957000F97B4B /* Assets.xcassets */,
+				0C7F73C21CC2957000F97B4B /* LaunchScreen.storyboard */,
+				0C7F73C51CC2957000F97B4B /* Info.plist */,
+				0C7F73B51CC2957000F97B4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0CB4437D1CC13E1400F892FA = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +222,7 @@
 				0C7F73381CC283D000F97B4B /* 02_spacecommander */,
 				0C7F738F1CC28EB000F97B4B /* 03_FOUNDATION_EXPORT||#define */,
 				0C7F739D1CC2937100F97B4B /* 04_static_inline */,
+				0C7F73B31CC2957000F97B4B /* 05_NotShowEmptyCellInTableView */,
 				0CB443871CC13E1400F892FA /* Products */,
 				1832EFDCC22A4D17473E85B5 /* Pods */,
 				3273F4B8F31FE695E26EBA20 /* Frameworks */,
@@ -189,6 +237,7 @@
 				0C7F73371CC283D000F97B4B /* 02_iOSTips.app */,
 				0C7F738E1CC28EB000F97B4B /* 03_FOUNDATION_EXPORT||#define */,
 				0C7F739C1CC2937100F97B4B /* 04_static_inline */,
+				0C7F73B21CC2957000F97B4B /* 05_NotShowEmptyCellInTableView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -310,6 +359,23 @@
 			productReference = 0C7F739C1CC2937100F97B4B /* 04_static_inline */;
 			productType = "com.apple.product-type.tool";
 		};
+		0C7F73B11CC2957000F97B4B /* 05_NotShowEmptyCellInTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C7F73C81CC2957000F97B4B /* Build configuration list for PBXNativeTarget "05_NotShowEmptyCellInTableView" */;
+			buildPhases = (
+				0C7F73AE1CC2957000F97B4B /* Sources */,
+				0C7F73AF1CC2957000F97B4B /* Frameworks */,
+				0C7F73B01CC2957000F97B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 05_NotShowEmptyCellInTableView;
+			productName = 05_NotShowEmptyCellInTableView;
+			productReference = 0C7F73B21CC2957000F97B4B /* 05_NotShowEmptyCellInTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0CB443851CC13E1400F892FA /* Objective-C_201604 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CB4439D1CC13E1500F892FA /* Build configuration list for PBXNativeTarget "Objective-C_201604" */;
@@ -351,6 +417,9 @@
 					0C7F739B1CC2937100F97B4B = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					0C7F73B11CC2957000F97B4B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					0CB443851CC13E1400F892FA = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -374,6 +443,7 @@
 				0C7F73361CC283D000F97B4B /* 02_iOSTips */,
 				0C7F738D1CC28EB000F97B4B /* 03_FOUNDATION_EXPORT||#define */,
 				0C7F739B1CC2937100F97B4B /* 04_static_inline */,
+				0C7F73B11CC2957000F97B4B /* 05_NotShowEmptyCellInTableView */,
 			);
 		};
 /* End PBXProject section */
@@ -393,6 +463,16 @@
 				0C7F73491CC283D000F97B4B /* LaunchScreen.storyboard in Resources */,
 				0C7F73461CC283D000F97B4B /* Assets.xcassets in Resources */,
 				0C7F73441CC283D000F97B4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7F73B01CC2957000F97B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7F73C41CC2957000F97B4B /* LaunchScreen.storyboard in Resources */,
+				0C7F73C11CC2957000F97B4B /* Assets.xcassets in Resources */,
+				0C7F73BF1CC2957000F97B4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +571,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0C7F73AE1CC2957000F97B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7F73BC1CC2957000F97B4B /* ViewController.m in Sources */,
+				0C7F73B91CC2957000F97B4B /* AppDelegate.m in Sources */,
+				0C7F73B61CC2957000F97B4B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CB443821CC13E1400F892FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -518,6 +608,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				0C7F73481CC283D000F97B4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0C7F73BD1CC2957000F97B4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C7F73BE1CC2957000F97B4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C7F73C21CC2957000F97B4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C7F73C31CC2957000F97B4B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -622,6 +728,28 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0C7F73C61CC2957000F97B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 05_NotShowEmptyCellInTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-5-NotShowEmptyCellInTableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C7F73C71CC2957000F97B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 05_NotShowEmptyCellInTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-5-NotShowEmptyCellInTableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -741,6 +869,7 @@
 				0C7F73311CC283B100F97B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C7F734B1CC283D000F97B4B /* Build configuration list for PBXNativeTarget "02_iOSTips" */ = {
 			isa = XCConfigurationList;
@@ -749,6 +878,7 @@
 				0C7F734D1CC283D000F97B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C7F73921CC28EB000F97B4B /* Build configuration list for PBXNativeTarget "03_FOUNDATION_EXPORT||#define" */ = {
 			isa = XCConfigurationList;
@@ -757,12 +887,22 @@
 				0C7F73941CC28EB000F97B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C7F73A01CC2937100F97B4B /* Build configuration list for PBXNativeTarget "04_static_inline" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C7F73A11CC2937100F97B4B /* Debug */,
 				0C7F73A21CC2937100F97B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C7F73C81CC2957000F97B4B /* Build configuration list for PBXNativeTarget "05_NotShowEmptyCellInTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C7F73C61CC2957000F97B4B /* Debug */,
+				0C7F73C71CC2957000F97B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
