@@ -52,6 +52,9 @@
 		0C7F74321CC3E3EE00F97B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F74301CC3E3EE00F97B4B /* LaunchScreen.storyboard */; };
 		0C7F743C1CC3E3FD00F97B4B /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F74391CC3E3FD00F97B4B /* FLAnimatedImage.m */; };
 		0C7F743D1CC3E3FD00F97B4B /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F743B1CC3E3FD00F97B4B /* FLAnimatedImageView.m */; };
+		0C7F74411CC3E5AB00F97B4B /* 二哈躲猫猫.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F743E1CC3E5AB00F97B4B /* 二哈躲猫猫.gif */; };
+		0C7F74421CC3E5AB00F97B4B /* 劳资再也不写代码了.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F743F1CC3E5AB00F97B4B /* 劳资再也不写代码了.gif */; };
+		0C7F74431CC3E5AB00F97B4B /* 萨摩耶.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F74401CC3E5AB00F97B4B /* 萨摩耶.gif */; };
 		0CB4438B1CC13E1500F892FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB4438A1CC13E1500F892FA /* main.m */; };
 		0CB4438E1CC13E1500F892FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB4438D1CC13E1500F892FA /* AppDelegate.m */; };
 		0CB443911CC13E1500F892FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB443901CC13E1500F892FA /* ViewController.m */; };
@@ -158,6 +161,9 @@
 		0C7F74391CC3E3FD00F97B4B /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
 		0C7F743A1CC3E3FD00F97B4B /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
 		0C7F743B1CC3E3FD00F97B4B /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
+		0C7F743E1CC3E5AB00F97B4B /* 二哈躲猫猫.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "二哈躲猫猫.gif"; sourceTree = "<group>"; };
+		0C7F743F1CC3E5AB00F97B4B /* 劳资再也不写代码了.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "劳资再也不写代码了.gif"; sourceTree = "<group>"; };
+		0C7F74401CC3E5AB00F97B4B /* 萨摩耶.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "萨摩耶.gif"; sourceTree = "<group>"; };
 		0CB443861CC13E1400F892FA /* Objective-C_201604.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C_201604.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB4438A1CC13E1500F892FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CB4438C1CC13E1500F892FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -397,6 +403,9 @@
 				0C7F74281CC3E3EE00F97B4B /* ViewController.h */,
 				0C7F74291CC3E3EE00F97B4B /* ViewController.m */,
 				0C7F742B1CC3E3EE00F97B4B /* Main.storyboard */,
+				0C7F743E1CC3E5AB00F97B4B /* 二哈躲猫猫.gif */,
+				0C7F743F1CC3E5AB00F97B4B /* 劳资再也不写代码了.gif */,
+				0C7F74401CC3E5AB00F97B4B /* 萨摩耶.gif */,
 				0C7F74221CC3E3EE00F97B4B /* Supporting Files */,
 			);
 			path = "09_GIF_ FLAnimatedImage";
@@ -812,7 +821,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C7F74431CC3E5AB00F97B4B /* 萨摩耶.gif in Resources */,
+				0C7F74421CC3E5AB00F97B4B /* 劳资再也不写代码了.gif in Resources */,
 				0C7F74321CC3E3EE00F97B4B /* LaunchScreen.storyboard in Resources */,
+				0C7F74411CC3E5AB00F97B4B /* 二哈躲猫猫.gif in Resources */,
 				0C7F742F1CC3E3EE00F97B4B /* Assets.xcassets in Resources */,
 				0C7F742D1CC3E3EE00F97B4B /* Main.storyboard in Resources */,
 			);

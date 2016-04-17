@@ -11,6 +11,10 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *huskyImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *noCodeImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *samoyedImageView;
+
 @end
 
 
