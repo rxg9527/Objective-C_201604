@@ -31,6 +31,12 @@
 		0C7F73DA1CC2982D00F97B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F73D81CC2982D00F97B4B /* Main.storyboard */; };
 		0C7F73DC1CC2982D00F97B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F73DB1CC2982D00F97B4B /* Assets.xcassets */; };
 		0C7F73DF1CC2982D00F97B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F73DD1CC2982D00F97B4B /* LaunchScreen.storyboard */; };
+		0C7F73EC1CC3D6D100F97B4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F73EB1CC3D6D100F97B4B /* main.m */; };
+		0C7F73EF1CC3D6D100F97B4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F73EE1CC3D6D100F97B4B /* AppDelegate.m */; };
+		0C7F73F21CC3D6D100F97B4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F73F11CC3D6D100F97B4B /* ViewController.m */; };
+		0C7F73F51CC3D6D100F97B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F73F31CC3D6D100F97B4B /* Main.storyboard */; };
+		0C7F73F71CC3D6D100F97B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F73F61CC3D6D100F97B4B /* Assets.xcassets */; };
+		0C7F73FA1CC3D6D100F97B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F73F81CC3D6D100F97B4B /* LaunchScreen.storyboard */; };
 		0CB4438B1CC13E1500F892FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB4438A1CC13E1500F892FA /* main.m */; };
 		0CB4438E1CC13E1500F892FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB4438D1CC13E1500F892FA /* AppDelegate.m */; };
 		0CB443911CC13E1500F892FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB443901CC13E1500F892FA /* ViewController.m */; };
@@ -102,6 +108,16 @@
 		0C7F73DB1CC2982D00F97B4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C7F73DE1CC2982D00F97B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C7F73E01CC2982D00F97B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C7F73E81CC3D6D100F97B4B /* 07_panUISwipeGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 07_panUISwipeGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7F73EB1CC3D6D100F97B4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C7F73ED1CC3D6D100F97B4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C7F73EE1CC3D6D100F97B4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C7F73F01CC3D6D100F97B4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C7F73F11CC3D6D100F97B4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C7F73F41CC3D6D100F97B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C7F73F61CC3D6D100F97B4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C7F73F91CC3D6D100F97B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C7F73FB1CC3D6D100F97B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CB443861CC13E1400F892FA /* Objective-C_201604.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C_201604.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB4438A1CC13E1500F892FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CB4438C1CC13E1500F892FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -154,6 +170,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0C7F73CA1CC2982D00F97B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7F73E51CC3D6D100F97B4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,6 +285,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0C7F73E91CC3D6D100F97B4B /* 07_panUISwipeGesture */ = {
+			isa = PBXGroup;
+			children = (
+				0C7F73ED1CC3D6D100F97B4B /* AppDelegate.h */,
+				0C7F73EE1CC3D6D100F97B4B /* AppDelegate.m */,
+				0C7F73F01CC3D6D100F97B4B /* ViewController.h */,
+				0C7F73F11CC3D6D100F97B4B /* ViewController.m */,
+				0C7F73EA1CC3D6D100F97B4B /* Supporting Files */,
+			);
+			path = 07_panUISwipeGesture;
+			sourceTree = "<group>";
+		};
+		0C7F73EA1CC3D6D100F97B4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C7F73F31CC3D6D100F97B4B /* Main.storyboard */,
+				0C7F73F61CC3D6D100F97B4B /* Assets.xcassets */,
+				0C7F73F81CC3D6D100F97B4B /* LaunchScreen.storyboard */,
+				0C7F73FB1CC3D6D100F97B4B /* Info.plist */,
+				0C7F73EB1CC3D6D100F97B4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0CB4437D1CC13E1400F892FA = {
 			isa = PBXGroup;
 			children = (
@@ -271,6 +318,7 @@
 				0C7F739D1CC2937100F97B4B /* 04_static_inline */,
 				0C7F73B31CC2957000F97B4B /* 05_NotShowEmptyCellInTableView */,
 				0C7F73CE1CC2982D00F97B4B /* 06_ HidesBarsOnSwipe */,
+				0C7F73E91CC3D6D100F97B4B /* 07_panUISwipeGesture */,
 				0CB443871CC13E1400F892FA /* Products */,
 				1832EFDCC22A4D17473E85B5 /* Pods */,
 				3273F4B8F31FE695E26EBA20 /* Frameworks */,
@@ -287,6 +335,7 @@
 				0C7F739C1CC2937100F97B4B /* 04_static_inline */,
 				0C7F73B21CC2957000F97B4B /* 05_NotShowEmptyCellInTableView.app */,
 				0C7F73CD1CC2982D00F97B4B /* 06_ HidesBarsOnSwipe.app */,
+				0C7F73E81CC3D6D100F97B4B /* 07_panUISwipeGesture.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -442,6 +491,23 @@
 			productReference = 0C7F73CD1CC2982D00F97B4B /* 06_ HidesBarsOnSwipe.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0C7F73E71CC3D6D100F97B4B /* 07_panUISwipeGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C7F73FC1CC3D6D100F97B4B /* Build configuration list for PBXNativeTarget "07_panUISwipeGesture" */;
+			buildPhases = (
+				0C7F73E41CC3D6D100F97B4B /* Sources */,
+				0C7F73E51CC3D6D100F97B4B /* Frameworks */,
+				0C7F73E61CC3D6D100F97B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 07_panUISwipeGesture;
+			productName = 07_panUISwipeGesture;
+			productReference = 0C7F73E81CC3D6D100F97B4B /* 07_panUISwipeGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0CB443851CC13E1400F892FA /* Objective-C_201604 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CB4439D1CC13E1500F892FA /* Build configuration list for PBXNativeTarget "Objective-C_201604" */;
@@ -489,6 +555,9 @@
 					0C7F73CC1CC2982D00F97B4B = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					0C7F73E71CC3D6D100F97B4B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					0CB443851CC13E1400F892FA = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -514,6 +583,7 @@
 				0C7F739B1CC2937100F97B4B /* 04_static_inline */,
 				0C7F73B11CC2957000F97B4B /* 05_NotShowEmptyCellInTableView */,
 				0C7F73CC1CC2982D00F97B4B /* 06_ HidesBarsOnSwipe */,
+				0C7F73E71CC3D6D100F97B4B /* 07_panUISwipeGesture */,
 			);
 		};
 /* End PBXProject section */
@@ -553,6 +623,16 @@
 				0C7F73DF1CC2982D00F97B4B /* LaunchScreen.storyboard in Resources */,
 				0C7F73DC1CC2982D00F97B4B /* Assets.xcassets in Resources */,
 				0C7F73DA1CC2982D00F97B4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7F73E61CC3D6D100F97B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7F73FA1CC3D6D100F97B4B /* LaunchScreen.storyboard in Resources */,
+				0C7F73F71CC3D6D100F97B4B /* Assets.xcassets in Resources */,
+				0C7F73F51CC3D6D100F97B4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,6 +751,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0C7F73E41CC3D6D100F97B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7F73F21CC3D6D100F97B4B /* ViewController.m in Sources */,
+				0C7F73EF1CC3D6D100F97B4B /* AppDelegate.m in Sources */,
+				0C7F73EC1CC3D6D100F97B4B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CB443821CC13E1400F892FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -730,6 +820,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				0C7F73DE1CC2982D00F97B4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0C7F73F31CC3D6D100F97B4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C7F73F41CC3D6D100F97B4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C7F73F81CC3D6D100F97B4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C7F73F91CC3D6D100F97B4B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -877,6 +983,28 @@
 				INFOPLIST_FILE = "06_ HidesBarsOnSwipe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-6--HidesBarsOnSwipe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0C7F73FD1CC3D6D100F97B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 07_panUISwipeGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-7-panUISwipeGesture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C7F73FE1CC3D6D100F97B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 07_panUISwipeGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-7-panUISwipeGesture";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1040,6 +1168,14 @@
 			buildConfigurations = (
 				0C7F73E11CC2982D00F97B4B /* Debug */,
 				0C7F73E21CC2982D00F97B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0C7F73FC1CC3D6D100F97B4B /* Build configuration list for PBXNativeTarget "07_panUISwipeGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C7F73FD1CC3D6D100F97B4B /* Debug */,
+				0C7F73FE1CC3D6D100F97B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
