@@ -52,9 +52,7 @@
 		0C7F74321CC3E3EE00F97B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F74301CC3E3EE00F97B4B /* LaunchScreen.storyboard */; };
 		0C7F743C1CC3E3FD00F97B4B /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F74391CC3E3FD00F97B4B /* FLAnimatedImage.m */; };
 		0C7F743D1CC3E3FD00F97B4B /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F743B1CC3E3FD00F97B4B /* FLAnimatedImageView.m */; };
-		0C7F74411CC3E5AB00F97B4B /* 二哈躲猫猫.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F743E1CC3E5AB00F97B4B /* 二哈躲猫猫.gif */; };
 		0C7F74421CC3E5AB00F97B4B /* 劳资再也不写代码了.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F743F1CC3E5AB00F97B4B /* 劳资再也不写代码了.gif */; };
-		0C7F74431CC3E5AB00F97B4B /* 萨摩耶.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F74401CC3E5AB00F97B4B /* 萨摩耶.gif */; };
 		0C7F74671CC3E94E00F97B4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F74661CC3E94E00F97B4B /* main.m */; };
 		0C7F746A1CC3E94E00F97B4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F74691CC3E94E00F97B4B /* AppDelegate.m */; };
 		0C7F746D1CC3E94E00F97B4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F746C1CC3E94E00F97B4B /* ViewController.m */; };
@@ -167,9 +165,7 @@
 		0C7F74391CC3E3FD00F97B4B /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
 		0C7F743A1CC3E3FD00F97B4B /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
 		0C7F743B1CC3E3FD00F97B4B /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
-		0C7F743E1CC3E5AB00F97B4B /* 二哈躲猫猫.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "二哈躲猫猫.gif"; sourceTree = "<group>"; };
 		0C7F743F1CC3E5AB00F97B4B /* 劳资再也不写代码了.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "劳资再也不写代码了.gif"; sourceTree = "<group>"; };
-		0C7F74401CC3E5AB00F97B4B /* 萨摩耶.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "萨摩耶.gif"; sourceTree = "<group>"; };
 		0C7F74481CC3E93B00F97B4B /* 10_ TransparencyNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "10_ TransparencyNavigationBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7F74631CC3E94E00F97B4B /* 10_TransparencyNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 10_TransparencyNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7F74661CC3E94E00F97B4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -434,9 +430,7 @@
 				0C7F74281CC3E3EE00F97B4B /* ViewController.h */,
 				0C7F74291CC3E3EE00F97B4B /* ViewController.m */,
 				0C7F742B1CC3E3EE00F97B4B /* Main.storyboard */,
-				0C7F743E1CC3E5AB00F97B4B /* 二哈躲猫猫.gif */,
 				0C7F743F1CC3E5AB00F97B4B /* 劳资再也不写代码了.gif */,
-				0C7F74401CC3E5AB00F97B4B /* 萨摩耶.gif */,
 				0C7F74221CC3E3EE00F97B4B /* Supporting Files */,
 			);
 			path = "09_GIF_ FLAnimatedImage";
@@ -921,10 +915,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C7F74431CC3E5AB00F97B4B /* 萨摩耶.gif in Resources */,
 				0C7F74421CC3E5AB00F97B4B /* 劳资再也不写代码了.gif in Resources */,
 				0C7F74321CC3E3EE00F97B4B /* LaunchScreen.storyboard in Resources */,
-				0C7F74411CC3E5AB00F97B4B /* 二哈躲猫猫.gif in Resources */,
 				0C7F742F1CC3E3EE00F97B4B /* Assets.xcassets in Resources */,
 				0C7F742D1CC3E3EE00F97B4B /* Main.storyboard in Resources */,
 			);
@@ -1658,6 +1650,7 @@
 				0C7F73E21CC2982D00F97B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C7F73FC1CC3D6D100F97B4B /* Build configuration list for PBXNativeTarget "07_panUISwipeGesture" */ = {
 			isa = XCConfigurationList;
@@ -1666,6 +1659,7 @@
 				0C7F73FE1CC3D6D100F97B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C7F74171CC3DE4700F97B4B /* Build configuration list for PBXNativeTarget "08_ stretchableImage" */ = {
 			isa = XCConfigurationList;
@@ -1674,6 +1668,7 @@
 				0C7F74191CC3DE4700F97B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C7F74341CC3E3EE00F97B4B /* Build configuration list for PBXNativeTarget "09_GIF_ FLAnimatedImage" */ = {
 			isa = XCConfigurationList;
@@ -1682,6 +1677,7 @@
 				0C7F74361CC3E3EE00F97B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C7F745C1CC3E93B00F97B4B /* Build configuration list for PBXNativeTarget "10_ TransparencyNavigationBar" */ = {
 			isa = XCConfigurationList;
@@ -1690,6 +1686,7 @@
 				0C7F745E1CC3E93B00F97B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C7F74771CC3E94E00F97B4B /* Build configuration list for PBXNativeTarget "10_TransparencyNavigationBar" */ = {
 			isa = XCConfigurationList;
@@ -1698,6 +1695,7 @@
 				0C7F74791CC3E94E00F97B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CB443811CC13E1400F892FA /* Build configuration list for PBXProject "Objective-C_201604" */ = {
 			isa = XCConfigurationList;

@@ -25,10 +25,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    FLAnimatedImage *huskyImage = [FLAnimatedImage animatedImageWithGIFData:[NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"二哈躲猫猫.gif" ofType:nil]]];
+    FLAnimatedImage *huskyImage = [FLAnimatedImage animatedImageWithGIFData:[NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"劳资再也不写代码了.gif" ofType:nil]]];
     FLAnimatedImageView *huskyImageView = [FLAnimatedImageView new];
     huskyImageView.animatedImage = huskyImage;
-    huskyImageView.frame = CGRectMake(0.0, 0.0, 169, 179);
+    huskyImageView.frame = CGRectMake(0.0, 0.0, 145, 135);
     [self.view addSubview:huskyImageView];
 }
 
