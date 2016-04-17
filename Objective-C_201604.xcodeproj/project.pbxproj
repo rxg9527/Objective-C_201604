@@ -55,6 +55,12 @@
 		0C7F74411CC3E5AB00F97B4B /* 二哈躲猫猫.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F743E1CC3E5AB00F97B4B /* 二哈躲猫猫.gif */; };
 		0C7F74421CC3E5AB00F97B4B /* 劳资再也不写代码了.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F743F1CC3E5AB00F97B4B /* 劳资再也不写代码了.gif */; };
 		0C7F74431CC3E5AB00F97B4B /* 萨摩耶.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F74401CC3E5AB00F97B4B /* 萨摩耶.gif */; };
+		0C7F74671CC3E94E00F97B4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F74661CC3E94E00F97B4B /* main.m */; };
+		0C7F746A1CC3E94E00F97B4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F74691CC3E94E00F97B4B /* AppDelegate.m */; };
+		0C7F746D1CC3E94E00F97B4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F746C1CC3E94E00F97B4B /* ViewController.m */; };
+		0C7F74701CC3E94E00F97B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F746E1CC3E94E00F97B4B /* Main.storyboard */; };
+		0C7F74721CC3E94E00F97B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F74711CC3E94E00F97B4B /* Assets.xcassets */; };
+		0C7F74751CC3E94E00F97B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F74731CC3E94E00F97B4B /* LaunchScreen.storyboard */; };
 		0CB4438B1CC13E1500F892FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB4438A1CC13E1500F892FA /* main.m */; };
 		0CB4438E1CC13E1500F892FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB4438D1CC13E1500F892FA /* AppDelegate.m */; };
 		0CB443911CC13E1500F892FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB443901CC13E1500F892FA /* ViewController.m */; };
@@ -164,6 +170,17 @@
 		0C7F743E1CC3E5AB00F97B4B /* 二哈躲猫猫.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "二哈躲猫猫.gif"; sourceTree = "<group>"; };
 		0C7F743F1CC3E5AB00F97B4B /* 劳资再也不写代码了.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "劳资再也不写代码了.gif"; sourceTree = "<group>"; };
 		0C7F74401CC3E5AB00F97B4B /* 萨摩耶.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "萨摩耶.gif"; sourceTree = "<group>"; };
+		0C7F74481CC3E93B00F97B4B /* 10_ TransparencyNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "10_ TransparencyNavigationBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7F74631CC3E94E00F97B4B /* 10_TransparencyNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 10_TransparencyNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7F74661CC3E94E00F97B4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C7F74681CC3E94E00F97B4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C7F74691CC3E94E00F97B4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C7F746B1CC3E94E00F97B4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C7F746C1CC3E94E00F97B4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C7F746F1CC3E94E00F97B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C7F74711CC3E94E00F97B4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C7F74741CC3E94E00F97B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C7F74761CC3E94E00F97B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CB443861CC13E1400F892FA /* Objective-C_201604.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C_201604.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB4438A1CC13E1500F892FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CB4438C1CC13E1500F892FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -237,6 +254,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0C7F741D1CC3E3EE00F97B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7F74451CC3E93B00F97B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7F74601CC3E94E00F97B4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -433,6 +464,30 @@
 			path = FLAnimatedImage;
 			sourceTree = "<group>";
 		};
+		0C7F74641CC3E94E00F97B4B /* 10_TransparencyNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				0C7F74681CC3E94E00F97B4B /* AppDelegate.h */,
+				0C7F74691CC3E94E00F97B4B /* AppDelegate.m */,
+				0C7F746B1CC3E94E00F97B4B /* ViewController.h */,
+				0C7F746C1CC3E94E00F97B4B /* ViewController.m */,
+				0C7F74651CC3E94E00F97B4B /* Supporting Files */,
+			);
+			path = 10_TransparencyNavigationBar;
+			sourceTree = "<group>";
+		};
+		0C7F74651CC3E94E00F97B4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C7F746E1CC3E94E00F97B4B /* Main.storyboard */,
+				0C7F74711CC3E94E00F97B4B /* Assets.xcassets */,
+				0C7F74731CC3E94E00F97B4B /* LaunchScreen.storyboard */,
+				0C7F74761CC3E94E00F97B4B /* Info.plist */,
+				0C7F74661CC3E94E00F97B4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0CB4437D1CC13E1400F892FA = {
 			isa = PBXGroup;
 			children = (
@@ -445,6 +500,7 @@
 				0C7F73E91CC3D6D100F97B4B /* 07_panUISwipeGesture */,
 				0C7F74041CC3DE4600F97B4B /* 08_ stretchableImage */,
 				0C7F74211CC3E3EE00F97B4B /* 09_GIF_ FLAnimatedImage */,
+				0C7F74641CC3E94E00F97B4B /* 10_TransparencyNavigationBar */,
 				0CB443871CC13E1400F892FA /* Products */,
 				1832EFDCC22A4D17473E85B5 /* Pods */,
 				3273F4B8F31FE695E26EBA20 /* Frameworks */,
@@ -464,6 +520,8 @@
 				0C7F73E81CC3D6D100F97B4B /* 07_panUISwipeGesture.app */,
 				0C7F74031CC3DE4600F97B4B /* 08_ stretchableImage.app */,
 				0C7F74201CC3E3EE00F97B4B /* 09_GIF_ FLAnimatedImage.app */,
+				0C7F74481CC3E93B00F97B4B /* 10_ TransparencyNavigationBar.app */,
+				0C7F74631CC3E94E00F97B4B /* 10_TransparencyNavigationBar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -670,6 +728,40 @@
 			productReference = 0C7F74201CC3E3EE00F97B4B /* 09_GIF_ FLAnimatedImage.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0C7F74471CC3E93B00F97B4B /* 10_ TransparencyNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C7F745C1CC3E93B00F97B4B /* Build configuration list for PBXNativeTarget "10_ TransparencyNavigationBar" */;
+			buildPhases = (
+				0C7F74441CC3E93B00F97B4B /* Sources */,
+				0C7F74451CC3E93B00F97B4B /* Frameworks */,
+				0C7F74461CC3E93B00F97B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10_ TransparencyNavigationBar";
+			productName = "10_ TransparencyNavigationBar";
+			productReference = 0C7F74481CC3E93B00F97B4B /* 10_ TransparencyNavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C7F74621CC3E94E00F97B4B /* 10_TransparencyNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C7F74771CC3E94E00F97B4B /* Build configuration list for PBXNativeTarget "10_TransparencyNavigationBar" */;
+			buildPhases = (
+				0C7F745F1CC3E94E00F97B4B /* Sources */,
+				0C7F74601CC3E94E00F97B4B /* Frameworks */,
+				0C7F74611CC3E94E00F97B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 10_TransparencyNavigationBar;
+			productName = 10_TransparencyNavigationBar;
+			productReference = 0C7F74631CC3E94E00F97B4B /* 10_TransparencyNavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0CB443851CC13E1400F892FA /* Objective-C_201604 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CB4439D1CC13E1500F892FA /* Build configuration list for PBXNativeTarget "Objective-C_201604" */;
@@ -726,6 +818,12 @@
 					0C7F741F1CC3E3EE00F97B4B = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					0C7F74471CC3E93B00F97B4B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					0C7F74621CC3E94E00F97B4B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					0CB443851CC13E1400F892FA = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -754,6 +852,8 @@
 				0C7F73E71CC3D6D100F97B4B /* 07_panUISwipeGesture */,
 				0C7F74021CC3DE4600F97B4B /* 08_ stretchableImage */,
 				0C7F741F1CC3E3EE00F97B4B /* 09_GIF_ FLAnimatedImage */,
+				0C7F74471CC3E93B00F97B4B /* 10_ TransparencyNavigationBar */,
+				0C7F74621CC3E94E00F97B4B /* 10_TransparencyNavigationBar */,
 			);
 		};
 /* End PBXProject section */
@@ -827,6 +927,23 @@
 				0C7F74411CC3E5AB00F97B4B /* 二哈躲猫猫.gif in Resources */,
 				0C7F742F1CC3E3EE00F97B4B /* Assets.xcassets in Resources */,
 				0C7F742D1CC3E3EE00F97B4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7F74461CC3E93B00F97B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7F74611CC3E94E00F97B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7F74751CC3E94E00F97B4B /* LaunchScreen.storyboard in Resources */,
+				0C7F74721CC3E94E00F97B4B /* Assets.xcassets in Resources */,
+				0C7F74701CC3E94E00F97B4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -977,6 +1094,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0C7F74441CC3E93B00F97B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7F745F1CC3E94E00F97B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7F746D1CC3E94E00F97B4B /* ViewController.m in Sources */,
+				0C7F746A1CC3E94E00F97B4B /* AppDelegate.m in Sources */,
+				0C7F74671CC3E94E00F97B4B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CB443821CC13E1400F892FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1084,6 +1218,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				0C7F74311CC3E3EE00F97B4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0C7F746E1CC3E94E00F97B4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C7F746F1CC3E94E00F97B4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C7F74731CC3E94E00F97B4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C7F74741CC3E94E00F97B4B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1303,6 +1453,50 @@
 			};
 			name = Release;
 		};
+		0C7F745D1CC3E93B00F97B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "10_ TransparencyNavigationBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-0--TransparencyNavigationBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C7F745E1CC3E93B00F97B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "10_ TransparencyNavigationBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-0--TransparencyNavigationBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0C7F74781CC3E94E00F97B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 10_TransparencyNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-0-TransparencyNavigationBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C7F74791CC3E94E00F97B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 10_TransparencyNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-0-TransparencyNavigationBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0CB4439B1CC13E1500F892FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1486,6 +1680,22 @@
 			buildConfigurations = (
 				0C7F74351CC3E3EE00F97B4B /* Debug */,
 				0C7F74361CC3E3EE00F97B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0C7F745C1CC3E93B00F97B4B /* Build configuration list for PBXNativeTarget "10_ TransparencyNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C7F745D1CC3E93B00F97B4B /* Debug */,
+				0C7F745E1CC3E93B00F97B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0C7F74771CC3E94E00F97B4B /* Build configuration list for PBXNativeTarget "10_TransparencyNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C7F74781CC3E94E00F97B4B /* Debug */,
+				0C7F74791CC3E94E00F97B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
