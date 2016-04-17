@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FLAnimatedImage.h"
 
 
 @interface ViewController ()
@@ -24,6 +25,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    FLAnimatedImage *huskyImage = [FLAnimatedImage animatedImageWithGIFData:[NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"二哈躲猫猫.gif" ofType:nil]]];
+    FLAnimatedImageView *huskyImageView = [FLAnimatedImageView new];
+    huskyImageView.animatedImage = huskyImage;
+    huskyImageView.frame = CGRectMake(0.0, 0.0, 169, 179);
+    [self.view addSubview:huskyImageView];
 }
 
 - (void)didReceiveMemoryWarning
