@@ -59,6 +59,12 @@
 		0C7F74701CC3E94E00F97B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F746E1CC3E94E00F97B4B /* Main.storyboard */; };
 		0C7F74721CC3E94E00F97B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F74711CC3E94E00F97B4B /* Assets.xcassets */; };
 		0C7F74751CC3E94E00F97B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F74731CC3E94E00F97B4B /* LaunchScreen.storyboard */; };
+		0C7F74821CC677D500F97B4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F74811CC677D500F97B4B /* main.m */; };
+		0C7F74851CC677D500F97B4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F74841CC677D500F97B4B /* AppDelegate.m */; };
+		0C7F74881CC677D500F97B4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F74871CC677D500F97B4B /* ViewController.m */; };
+		0C7F748B1CC677D500F97B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F74891CC677D500F97B4B /* Main.storyboard */; };
+		0C7F748D1CC677D500F97B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F748C1CC677D500F97B4B /* Assets.xcassets */; };
+		0C7F74901CC677D500F97B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F748E1CC677D500F97B4B /* LaunchScreen.storyboard */; };
 		0CB4438B1CC13E1500F892FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB4438A1CC13E1500F892FA /* main.m */; };
 		0CB4438E1CC13E1500F892FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB4438D1CC13E1500F892FA /* AppDelegate.m */; };
 		0CB443911CC13E1500F892FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB443901CC13E1500F892FA /* ViewController.m */; };
@@ -177,6 +183,16 @@
 		0C7F74711CC3E94E00F97B4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C7F74741CC3E94E00F97B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C7F74761CC3E94E00F97B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C7F747E1CC677D500F97B4B /* 11_UITextFiledPlaceholderColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 11_UITextFiledPlaceholderColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7F74811CC677D500F97B4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C7F74831CC677D500F97B4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C7F74841CC677D500F97B4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C7F74861CC677D500F97B4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C7F74871CC677D500F97B4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C7F748A1CC677D500F97B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C7F748C1CC677D500F97B4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C7F748F1CC677D500F97B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C7F74911CC677D500F97B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CB443861CC13E1400F892FA /* Objective-C_201604.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C_201604.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB4438A1CC13E1500F892FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CB4438C1CC13E1500F892FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -264,6 +280,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0C7F74601CC3E94E00F97B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7F747B1CC677D500F97B4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -482,6 +505,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0C7F747F1CC677D500F97B4B /* 11_UITextFiledPlaceholderColor */ = {
+			isa = PBXGroup;
+			children = (
+				0C7F74861CC677D500F97B4B /* ViewController.h */,
+				0C7F74871CC677D500F97B4B /* ViewController.m */,
+				0C7F74891CC677D500F97B4B /* Main.storyboard */,
+				0C7F74801CC677D500F97B4B /* Supporting Files */,
+			);
+			path = 11_UITextFiledPlaceholderColor;
+			sourceTree = "<group>";
+		};
+		0C7F74801CC677D500F97B4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C7F74831CC677D500F97B4B /* AppDelegate.h */,
+				0C7F74841CC677D500F97B4B /* AppDelegate.m */,
+				0C7F748C1CC677D500F97B4B /* Assets.xcassets */,
+				0C7F748E1CC677D500F97B4B /* LaunchScreen.storyboard */,
+				0C7F74911CC677D500F97B4B /* Info.plist */,
+				0C7F74811CC677D500F97B4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0CB4437D1CC13E1400F892FA = {
 			isa = PBXGroup;
 			children = (
@@ -495,6 +542,7 @@
 				0C7F74041CC3DE4600F97B4B /* 08_ stretchableImage */,
 				0C7F74211CC3E3EE00F97B4B /* 09_GIF_ FLAnimatedImage */,
 				0C7F74641CC3E94E00F97B4B /* 10_TransparencyNavigationBar */,
+				0C7F747F1CC677D500F97B4B /* 11_UITextFiledPlaceholderColor */,
 				0CB443871CC13E1400F892FA /* Products */,
 				1832EFDCC22A4D17473E85B5 /* Pods */,
 				3273F4B8F31FE695E26EBA20 /* Frameworks */,
@@ -516,6 +564,7 @@
 				0C7F74201CC3E3EE00F97B4B /* 09_GIF_ FLAnimatedImage.app */,
 				0C7F74481CC3E93B00F97B4B /* 10_ TransparencyNavigationBar.app */,
 				0C7F74631CC3E94E00F97B4B /* 10_TransparencyNavigationBar.app */,
+				0C7F747E1CC677D500F97B4B /* 11_UITextFiledPlaceholderColor.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -756,6 +805,23 @@
 			productReference = 0C7F74631CC3E94E00F97B4B /* 10_TransparencyNavigationBar.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0C7F747D1CC677D500F97B4B /* 11_UITextFiledPlaceholderColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C7F74941CC677D500F97B4B /* Build configuration list for PBXNativeTarget "11_UITextFiledPlaceholderColor" */;
+			buildPhases = (
+				0C7F747A1CC677D500F97B4B /* Sources */,
+				0C7F747B1CC677D500F97B4B /* Frameworks */,
+				0C7F747C1CC677D500F97B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 11_UITextFiledPlaceholderColor;
+			productName = 11_UITextFiledPlaceholderColor;
+			productReference = 0C7F747E1CC677D500F97B4B /* 11_UITextFiledPlaceholderColor.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0CB443851CC13E1400F892FA /* Objective-C_201604 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CB4439D1CC13E1500F892FA /* Build configuration list for PBXNativeTarget "Objective-C_201604" */;
@@ -818,6 +884,9 @@
 					0C7F74621CC3E94E00F97B4B = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					0C7F747D1CC677D500F97B4B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					0CB443851CC13E1400F892FA = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -848,6 +917,7 @@
 				0C7F741F1CC3E3EE00F97B4B /* 09_GIF_ FLAnimatedImage */,
 				0C7F74471CC3E93B00F97B4B /* 10_ TransparencyNavigationBar */,
 				0C7F74621CC3E94E00F97B4B /* 10_TransparencyNavigationBar */,
+				0C7F747D1CC677D500F97B4B /* 11_UITextFiledPlaceholderColor */,
 			);
 		};
 /* End PBXProject section */
@@ -936,6 +1006,16 @@
 				0C7F74751CC3E94E00F97B4B /* LaunchScreen.storyboard in Resources */,
 				0C7F74721CC3E94E00F97B4B /* Assets.xcassets in Resources */,
 				0C7F74701CC3E94E00F97B4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7F747C1CC677D500F97B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7F74901CC677D500F97B4B /* LaunchScreen.storyboard in Resources */,
+				0C7F748D1CC677D500F97B4B /* Assets.xcassets in Resources */,
+				0C7F748B1CC677D500F97B4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1103,6 +1183,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0C7F747A1CC677D500F97B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7F74881CC677D500F97B4B /* ViewController.m in Sources */,
+				0C7F74851CC677D500F97B4B /* AppDelegate.m in Sources */,
+				0C7F74821CC677D500F97B4B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CB443821CC13E1400F892FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1226,6 +1316,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				0C7F74741CC3E94E00F97B4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0C7F74891CC677D500F97B4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C7F748A1CC677D500F97B4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C7F748E1CC677D500F97B4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C7F748F1CC677D500F97B4B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1489,6 +1595,28 @@
 			};
 			name = Release;
 		};
+		0C7F74921CC677D500F97B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 11_UITextFiledPlaceholderColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-1-UITextFiledPlaceholderColor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C7F74931CC677D500F97B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 11_UITextFiledPlaceholderColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-1-UITextFiledPlaceholderColor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0CB4439B1CC13E1500F892FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1696,6 +1824,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		0C7F74941CC677D500F97B4B /* Build configuration list for PBXNativeTarget "11_UITextFiledPlaceholderColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C7F74921CC677D500F97B4B /* Debug */,
+				0C7F74931CC677D500F97B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		0CB443811CC13E1400F892FA /* Build configuration list for PBXProject "Objective-C_201604" */ = {
 			isa = XCConfigurationList;
