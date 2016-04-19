@@ -9,10 +9,13 @@
 #import "ViewController.h"
 #import "XGCell.h"
 
+static NSString *const kReuseCellID = @"XGCell";
+
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @property (strong, nonatomic) UITableView *tableView;
+@property (nonatomic, strong) NSArray *dataSourceArray;
 
 @end
 
@@ -26,6 +29,11 @@
 
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.tableView.hidden = NO;
+
+    NSString *dataSourcePath = [[NSBundle mainBundle] pathForResource:@"Property List" ofType:@"plist"];
+    self.dataSourceArray = [[NSArray alloc] initWithContentsOfFile:dataSourcePath];
+
+    [self.tableView registerClass:[XGCell class] forCellReuseIdentifier:kReuseCellID];
 }
 
 - (UITableView *)tableView
@@ -41,21 +49,26 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 2;
+    //    return 2;
+    return self.dataSourceArray.count;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
+    /*
     if (section == 0) {
         return 5;
     } else if (section == 1) {
         return 5;
     }
     return 0;
+     */
+    return [self.dataSourceArray[section] count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    /*
     static NSString *cellIdenfier = @"cell";
     XGCell *cell = [self.tableView dequeueReusableCellWithIdentifier:cellIdenfier];
     if (cell == nil) {
@@ -98,6 +111,12 @@
         }
     }
 
+    return cell;
+     */
+
+    XGCell *cell = [self.tableView dequeueReusableCellWithIdentifier:kReuseCellID];
+    cell.textLabel.text = self.dataSourceArray[indexPath.section][indexPath.row][@"title"];
+    cell.detailTextLabel.text = self.dataSourceArray[indexPath.section][indexPath.row][@"content"];
     return cell;
 }
 

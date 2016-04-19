@@ -73,6 +73,7 @@
 		0C7F74AB1CC67F4300F97B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F74AA1CC67F4300F97B4B /* Assets.xcassets */; };
 		0C7F74AE1CC67F4300F97B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F74AC1CC67F4300F97B4B /* LaunchScreen.storyboard */; };
 		0C7F74B51CC681DC00F97B4B /* XGCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F74B41CC681DC00F97B4B /* XGCell.m */; };
+		0C7F74B71CC686CE00F97B4B /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F74B61CC686CE00F97B4B /* Property List.plist */; };
 		0CB4438B1CC13E1500F892FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB4438A1CC13E1500F892FA /* main.m */; };
 		0CB4438E1CC13E1500F892FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB4438D1CC13E1500F892FA /* AppDelegate.m */; };
 		0CB443911CC13E1500F892FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB443901CC13E1500F892FA /* ViewController.m */; };
@@ -215,6 +216,7 @@
 		0C7F74AF1CC67F4300F97B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C7F74B31CC681DC00F97B4B /* XGCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGCell.h; sourceTree = "<group>"; };
 		0C7F74B41CC681DC00F97B4B /* XGCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGCell.m; sourceTree = "<group>"; };
+		0C7F74B61CC686CE00F97B4B /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		0CB443861CC13E1400F892FA /* Objective-C_201604.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C_201604.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB4438A1CC13E1500F892FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CB4438C1CC13E1500F892FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -567,6 +569,7 @@
 				0C7F74A51CC67F4300F97B4B /* ViewController.m */,
 				0C7F74B31CC681DC00F97B4B /* XGCell.h */,
 				0C7F74B41CC681DC00F97B4B /* XGCell.m */,
+				0C7F74B61CC686CE00F97B4B /* Property List.plist */,
 				0C7F74A71CC67F4300F97B4B /* Main.storyboard */,
 				0C7F749E1CC67F4300F97B4B /* Supporting Files */,
 			);
@@ -1105,6 +1108,7 @@
 			files = (
 				0C7F74AE1CC67F4300F97B4B /* LaunchScreen.storyboard in Resources */,
 				0C7F74AB1CC67F4300F97B4B /* Assets.xcassets in Resources */,
+				0C7F74B71CC686CE00F97B4B /* Property List.plist in Resources */,
 				0C7F74A91CC67F4300F97B4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
