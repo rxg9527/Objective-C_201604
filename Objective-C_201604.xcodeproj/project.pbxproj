@@ -65,6 +65,7 @@
 		0C7F748B1CC677D500F97B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F74891CC677D500F97B4B /* Main.storyboard */; };
 		0C7F748D1CC677D500F97B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F748C1CC677D500F97B4B /* Assets.xcassets */; };
 		0C7F74901CC677D500F97B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F748E1CC677D500F97B4B /* LaunchScreen.storyboard */; };
+		0C7F74971CC678C400F97B4B /* XGTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F74961CC678C400F97B4B /* XGTextField.m */; };
 		0CB4438B1CC13E1500F892FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB4438A1CC13E1500F892FA /* main.m */; };
 		0CB4438E1CC13E1500F892FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB4438D1CC13E1500F892FA /* AppDelegate.m */; };
 		0CB443911CC13E1500F892FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB443901CC13E1500F892FA /* ViewController.m */; };
@@ -193,6 +194,8 @@
 		0C7F748C1CC677D500F97B4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C7F748F1CC677D500F97B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C7F74911CC677D500F97B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C7F74951CC678C400F97B4B /* XGTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGTextField.h; sourceTree = "<group>"; };
+		0C7F74961CC678C400F97B4B /* XGTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGTextField.m; sourceTree = "<group>"; };
 		0CB443861CC13E1400F892FA /* Objective-C_201604.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C_201604.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB4438A1CC13E1500F892FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CB4438C1CC13E1500F892FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -510,6 +513,8 @@
 			children = (
 				0C7F74861CC677D500F97B4B /* ViewController.h */,
 				0C7F74871CC677D500F97B4B /* ViewController.m */,
+				0C7F74951CC678C400F97B4B /* XGTextField.h */,
+				0C7F74961CC678C400F97B4B /* XGTextField.m */,
 				0C7F74891CC677D500F97B4B /* Main.storyboard */,
 				0C7F74801CC677D500F97B4B /* Supporting Files */,
 			);
@@ -1187,6 +1192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C7F74971CC678C400F97B4B /* XGTextField.m in Sources */,
 				0C7F74881CC677D500F97B4B /* ViewController.m in Sources */,
 				0C7F74851CC677D500F97B4B /* AppDelegate.m in Sources */,
 				0C7F74821CC677D500F97B4B /* main.m in Sources */,
