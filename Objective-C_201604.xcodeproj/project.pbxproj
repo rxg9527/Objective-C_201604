@@ -80,6 +80,7 @@
 		0C7F74C91CC7CC6C00F97B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F74C71CC7CC6C00F97B4B /* Main.storyboard */; };
 		0C7F74CB1CC7CC6C00F97B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F74CA1CC7CC6C00F97B4B /* Assets.xcassets */; };
 		0C7F74CE1CC7CC6C00F97B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7F74CC1CC7CC6C00F97B4B /* LaunchScreen.storyboard */; };
+		0C7F74D51CC7CF5300F97B4B /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F74D41CC7CF5300F97B4B /* UIImage+RoundedCorner.m */; };
 		0CB4438B1CC13E1500F892FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB4438A1CC13E1500F892FA /* main.m */; };
 		0CB4438E1CC13E1500F892FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB4438D1CC13E1500F892FA /* AppDelegate.m */; };
 		0CB443911CC13E1500F892FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB443901CC13E1500F892FA /* ViewController.m */; };
@@ -233,6 +234,8 @@
 		0C7F74CA1CC7CC6C00F97B4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C7F74CD1CC7CC6C00F97B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C7F74CF1CC7CC6C00F97B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C7F74D31CC7CF5300F97B4B /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		0C7F74D41CC7CF5300F97B4B /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
 		0CB443861CC13E1400F892FA /* Objective-C_201604.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C_201604.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB4438A1CC13E1500F892FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CB4438C1CC13E1500F892FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -617,6 +620,8 @@
 			children = (
 				0C7F74C41CC7CC6C00F97B4B /* ViewController.h */,
 				0C7F74C51CC7CC6C00F97B4B /* ViewController.m */,
+				0C7F74D31CC7CF5300F97B4B /* UIImage+RoundedCorner.h */,
+				0C7F74D41CC7CF5300F97B4B /* UIImage+RoundedCorner.m */,
 				0C7F74C71CC7CC6C00F97B4B /* Main.storyboard */,
 				0C7F74BE1CC7CC6C00F97B4B /* Supporting Files */,
 			);
@@ -1383,6 +1388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C7F74D51CC7CF5300F97B4B /* UIImage+RoundedCorner.m in Sources */,
 				0C7F74C61CC7CC6C00F97B4B /* ViewController.m in Sources */,
 				0C7F74C31CC7CC6C00F97B4B /* AppDelegate.m in Sources */,
 				0C7F74C01CC7CC6C00F97B4B /* main.m in Sources */,
