@@ -11,6 +11,9 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIView *bottomView;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *contentViewHeight;
+
 @end
 
 
@@ -20,6 +23,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.contentViewHeight.constant = CGRectGetHeight(self.bottomView.bounds) + self.bottomView.frame.origin.y;
 }
 
 - (void)didReceiveMemoryWarning
