@@ -87,6 +87,12 @@
 		0CA4B3221CD109DC00CAD3BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA4B3201CD109DC00CAD3BF /* Main.storyboard */; };
 		0CA4B3241CD109DC00CAD3BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA4B3231CD109DC00CAD3BF /* Assets.xcassets */; };
 		0CA4B3271CD109DC00CAD3BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA4B3251CD109DC00CAD3BF /* LaunchScreen.storyboard */; };
+		0CA4B3341CD10DAC00CAD3BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA4B3331CD10DAC00CAD3BF /* main.m */; };
+		0CA4B3371CD10DAC00CAD3BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA4B3361CD10DAC00CAD3BF /* AppDelegate.m */; };
+		0CA4B33A1CD10DAC00CAD3BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA4B3391CD10DAC00CAD3BF /* ViewController.m */; };
+		0CA4B33D1CD10DAC00CAD3BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA4B33B1CD10DAC00CAD3BF /* Main.storyboard */; };
+		0CA4B33F1CD10DAC00CAD3BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA4B33E1CD10DAC00CAD3BF /* Assets.xcassets */; };
+		0CA4B3421CD10DAC00CAD3BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA4B3401CD10DAC00CAD3BF /* LaunchScreen.storyboard */; };
 		0CB4438B1CC13E1500F892FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB4438A1CC13E1500F892FA /* main.m */; };
 		0CB4438E1CC13E1500F892FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB4438D1CC13E1500F892FA /* AppDelegate.m */; };
 		0CB443911CC13E1500F892FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB443901CC13E1500F892FA /* ViewController.m */; };
@@ -252,6 +258,16 @@
 		0CA4B3231CD109DC00CAD3BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CA4B3261CD109DC00CAD3BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CA4B3281CD109DC00CAD3BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA4B3301CD10DAC00CAD3BF /* 15_AutoLayoutInScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 15_AutoLayoutInScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA4B3331CD10DAC00CAD3BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0CA4B3351CD10DAC00CAD3BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0CA4B3361CD10DAC00CAD3BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0CA4B3381CD10DAC00CAD3BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0CA4B3391CD10DAC00CAD3BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0CA4B33C1CD10DAC00CAD3BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CA4B33E1CD10DAC00CAD3BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CA4B3411CD10DAC00CAD3BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CA4B3431CD10DAC00CAD3BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CB443861CC13E1400F892FA /* Objective-C_201604.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C_201604.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB4438A1CC13E1500F892FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CB4438C1CC13E1500F892FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -367,6 +383,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0CA4B3121CD109DC00CAD3BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA4B32D1CD10DAC00CAD3BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -688,6 +711,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0CA4B3311CD10DAC00CAD3BF /* 15_AutoLayoutInScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				0CA4B3351CD10DAC00CAD3BF /* AppDelegate.h */,
+				0CA4B3361CD10DAC00CAD3BF /* AppDelegate.m */,
+				0CA4B3381CD10DAC00CAD3BF /* ViewController.h */,
+				0CA4B3391CD10DAC00CAD3BF /* ViewController.m */,
+				0CA4B33B1CD10DAC00CAD3BF /* Main.storyboard */,
+				0CA4B33E1CD10DAC00CAD3BF /* Assets.xcassets */,
+				0CA4B3401CD10DAC00CAD3BF /* LaunchScreen.storyboard */,
+				0CA4B3431CD10DAC00CAD3BF /* Info.plist */,
+				0CA4B3321CD10DAC00CAD3BF /* Supporting Files */,
+			);
+			path = 15_AutoLayoutInScrollView;
+			sourceTree = "<group>";
+		};
+		0CA4B3321CD10DAC00CAD3BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CA4B3331CD10DAC00CAD3BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0CB4437D1CC13E1400F892FA = {
 			isa = PBXGroup;
 			children = (
@@ -705,6 +752,7 @@
 				0C7F749D1CC67F4300F97B4B /* 12_StaticCellPlist */,
 				0C7F74BD1CC7CC6C00F97B4B /* 13_OffscreenRendering_CornerRadius */,
 				0CA4B3161CD109DC00CAD3BF /* 14_AutoLayout等宽尺寸 */,
+				0CA4B3311CD10DAC00CAD3BF /* 15_AutoLayoutInScrollView */,
 				0CB443871CC13E1400F892FA /* Products */,
 				1832EFDCC22A4D17473E85B5 /* Pods */,
 				3273F4B8F31FE695E26EBA20 /* Frameworks */,
@@ -730,6 +778,7 @@
 				0C7F749C1CC67F4300F97B4B /* 12_StaticCellPlist.app */,
 				0C7F74BC1CC7CC6C00F97B4B /* 13_OffscreenRendering_CornerRadius.app */,
 				0CA4B3151CD109DC00CAD3BF /* 14_AutoLayout等宽尺寸.app */,
+				0CA4B3301CD10DAC00CAD3BF /* 15_AutoLayoutInScrollView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1038,6 +1087,23 @@
 			productReference = 0CA4B3151CD109DC00CAD3BF /* 14_AutoLayout等宽尺寸.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0CA4B32F1CD10DAC00CAD3BF /* 15_AutoLayoutInScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CA4B3441CD10DAC00CAD3BF /* Build configuration list for PBXNativeTarget "15_AutoLayoutInScrollView" */;
+			buildPhases = (
+				0CA4B32C1CD10DAC00CAD3BF /* Sources */,
+				0CA4B32D1CD10DAC00CAD3BF /* Frameworks */,
+				0CA4B32E1CD10DAC00CAD3BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 15_AutoLayoutInScrollView;
+			productName = 15_AutoLayoutInScrollView;
+			productReference = 0CA4B3301CD10DAC00CAD3BF /* 15_AutoLayoutInScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0CB443851CC13E1400F892FA /* Objective-C_201604 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CB4439D1CC13E1500F892FA /* Build configuration list for PBXNativeTarget "Objective-C_201604" */;
@@ -1112,6 +1178,9 @@
 					0CA4B3141CD109DC00CAD3BF = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					0CA4B32F1CD10DAC00CAD3BF = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					0CB443851CC13E1400F892FA = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -1146,6 +1215,7 @@
 				0C7F749B1CC67F4300F97B4B /* 12_StaticCellPlist */,
 				0C7F74BB1CC7CC6C00F97B4B /* 13_OffscreenRendering_CornerRadius */,
 				0CA4B3141CD109DC00CAD3BF /* 14_AutoLayout等宽尺寸 */,
+				0CA4B32F1CD10DAC00CAD3BF /* 15_AutoLayoutInScrollView */,
 			);
 		};
 /* End PBXProject section */
@@ -1275,6 +1345,16 @@
 				0CA4B3271CD109DC00CAD3BF /* LaunchScreen.storyboard in Resources */,
 				0CA4B3241CD109DC00CAD3BF /* Assets.xcassets in Resources */,
 				0CA4B3221CD109DC00CAD3BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA4B32E1CD10DAC00CAD3BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA4B3421CD10DAC00CAD3BF /* LaunchScreen.storyboard in Resources */,
+				0CA4B33F1CD10DAC00CAD3BF /* Assets.xcassets in Resources */,
+				0CA4B33D1CD10DAC00CAD3BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1485,6 +1565,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0CA4B32C1CD10DAC00CAD3BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA4B33A1CD10DAC00CAD3BF /* ViewController.m in Sources */,
+				0CA4B3371CD10DAC00CAD3BF /* AppDelegate.m in Sources */,
+				0CA4B3341CD10DAC00CAD3BF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CB443821CC13E1400F892FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1672,6 +1762,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				0CA4B3261CD109DC00CAD3BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0CA4B33B1CD10DAC00CAD3BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CA4B33C1CD10DAC00CAD3BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CA4B3401CD10DAC00CAD3BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CA4B3411CD10DAC00CAD3BF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -2023,6 +2129,28 @@
 			};
 			name = Release;
 		};
+		0CA4B3451CD10DAC00CAD3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 15_AutoLayoutInScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-5-AutoLayoutInScrollView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0CA4B3461CD10DAC00CAD3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 15_AutoLayoutInScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-5-AutoLayoutInScrollView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0CB4439B1CC13E1500F892FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2263,6 +2391,14 @@
 			buildConfigurations = (
 				0CA4B3291CD109DC00CAD3BF /* Debug */,
 				0CA4B32A1CD109DC00CAD3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0CA4B3441CD10DAC00CAD3BF /* Build configuration list for PBXNativeTarget "15_AutoLayoutInScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA4B3451CD10DAC00CAD3BF /* Debug */,
+				0CA4B3461CD10DAC00CAD3BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
